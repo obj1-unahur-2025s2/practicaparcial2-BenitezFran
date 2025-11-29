@@ -1,10 +1,14 @@
 // ================ PERSONAJE ================
+// actualizacion de cositas
 class Personaje {
 
 var rol
 // cazador , brujo, guerrero
 const property fuerza
 const inteligencia
+const estrategia
+
+  method estrategia() = estrategia
 
   method cambiarRol(unNuevoRol){
     rol = unNuevoRol
